@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use App\Models\User;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Controller; // Menggunakan kelas Controller dari namespace App\Http\Controllers
+use App\Models\User; // Menggunakan model User dari namespace App\Models
+use Illuminate\Http\Request; // Menggunakan kelas Request dari library Illuminate\Http untuk memanipulasi permintaan HTTP
+use Illuminate\Support\Facades\Auth; // Menggunakan fasad Auth dari library Illuminate\Support\Facades untuk mengelola otentikasi pengguna
 
 class LoginController extends Controller
 {
